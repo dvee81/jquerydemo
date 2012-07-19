@@ -1,0 +1,120 @@
+﻿body {
+    
+}
+
+/*PROFILE INFO*/
+.image-box {
+  width: 120px;
+  background-color: white;
+  height: 120px;
+  border: 1px solid #eee;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.user-summary {
+}
+
+/*POLL STYLING SECTION*/
+.no-left-padding {
+    padding-left: 0px;
+}
+
+.choice-list{
+  list-style: none;
+  margin-left:0px;
+}
+
+.choice-list > li{
+  margin-top:5px;
+}
+
+.remove-item{
+  margin-top:-8px;
+}
+#poll-feed{
+  margin-left:-3px;
+}
+
+.attr-list{
+  margin-left:0px; 
+  margin-top:3px;
+  height:28px;
+}
+
+.attr-list > li{
+  padding-left:5px;
+}
+
+.poll-activity-list{
+  margin-top:5px;
+  margin-left:0px; 
+}
+
+.poll-activity-list > li {
+  margin-left: 5px;
+}
+
+/*LOGIN INPUT OVERRIDE SECTION*/
+#login-form {
+    margin-bottom: 0px;
+    margin-top: 5px 
+}
+#login-form input {
+    margin-bottom: 0px;        
+}
+
+/*REGISTRATION MODAL OVERRIDE SECTION*/
+.modal-body-register{
+  overflow-y: hidden;
+  height:455px;
+  max-height: 600px;
+  padding: 15px;
+}
+.modal.fade-register {
+  -webkit-transition: opacity .3s linear, top .3s ease-out;
+  -moz-transition: opacity .3s linear, top .3s ease-out;
+  -ms-transition: opacity .3s linear, top .3s ease-out;
+  -o-transition: opacity .3s linear, top .3s ease-out;
+  transition: opacity .3s linear, top .3s ease-out;
+  top: -25%;
+}
+.modal.fade-register.in {
+  top: 45%;
+}
+
+.btn-login {
+  display: inline-block;
+  padding: 4px 10px 4px;
+  margin: 0px 5px 6px;
+  line-height: 18px;
+}
+
+/*GLOBAL STYLES*/
+.generic-loading-panel{
+  font-family:Arial,Helvetica,Sans-Serif;
+  font-size:11px;
+  color:white;
+  width: 120px;
+  height:15px; 
+  margin-top:3px;
+  padding-left: 5px;  
+  font-weight:700;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:transparent;
+}
+
+.ul-horizontal{
+  list-style: none;
+  list-style-type: none;
+}
+
+.ul-horizontal li{
+  float:left;
+}

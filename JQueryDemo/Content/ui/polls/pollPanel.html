@@ -1,0 +1,32 @@
+﻿<script type="x-widget">
+{{#polls}} 
+  <div style="margin-left:0px" class="panel-poll well span12" >
+   <div class="span12">  
+    <div style="padding-left:5px" class="row-fluid">
+     <h4>{{Description}}</h4>
+    </div>
+    <ul id={{Id}}  class="attr-list ul-horizontal" >
+    {{#Attributes}}
+    <li>  
+       <a id="{{Id}}" class="btn btn-poll-vote btn-small"> <i class="icon-ok"></i> {{Percentile}}</a> {{Value}} 
+    </li>  
+    {{/Attributes}}
+    </ul>
+    <ul class="poll-activity-list ul-horizontal">
+       <li>
+          <i style="cursor:pointer" class="icon-eye-open"></i>
+       </li>
+       <li>
+          <i style="cursor:pointer" class="icon-share"></i>
+       </li>
+       <li>
+         <i style="cursor:pointer" class="icon-comment"></i>
+       </li>
+       <li>
+         <i style="cursor:pointer" class=" icon-list-alt"></i>
+       </li>
+    </ul>
+  </div>
+ </div>
+{{/polls}}
+</script>   

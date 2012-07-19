@@ -1,0 +1,9 @@
+C:\dev\projects\JQueryDemo.sln\JQueryDemo\bin\JQueryDemo.dll
+C:\dev\projects\JQueryDemo.sln\JQueryDemo\bin\JQueryDemo.pdb
+C:\dev\projects\JQueryDemo.sln\JQueryDemo\bin\Nancy.dll
+C:\dev\projects\JQueryDemo.sln\JQueryDemo\bin\Nancy.Hosting.Aspnet.dll
+C:\dev\projects\JQueryDemo.sln\JQueryDemo\bin\Nancy.ViewEngines.Razor.dll
+C:\dev\projects\JQueryDemo.sln\JQueryDemo\bin\System.Web.Razor.dll
+C:\dev\projects\JQueryDemo.sln\JQueryDemo\obj\Debug\JQueryDemo.csprojResolveAssemblyReference.cache
+C:\dev\projects\JQueryDemo.sln\JQueryDemo\obj\Debug\JQueryDemo.dll
+C:\dev\projects\JQueryDemo.sln\JQueryDemo\obj\Debug\JQueryDemo.pdb

@@ -1,0 +1,40 @@
+﻿<script type="x-widget">
+ <div class="modal fade-register" id="{{dialogId}}">
+    <div class="modal-header">
+        <a class="close" data-dismiss="modal">×</a>
+        <h3>{{title}}</h3>
+    </div>
+    <div id="registration-form" class="modal-body-register">
+        <form class="well">
+          <div class="control-group">
+            <label>User Name</label>
+            <input rules="required" name="UserName" type="text" class="span3" placeholder="UserName">
+           </div>
+           <div class="control-group">
+            <label>Password</label>
+            <input rules="required" name="Password" type="password" class="span3" placeholder="Password">
+           </div>
+           <div class="control-group">
+            <label>Confirm password</label>
+            <input rules="required" name="Password" type="password" class="span3" placeholder="Confirm password">
+           </div>
+           <div class="control-group"> 
+            <label>First Name</label>
+            <input rules="required" name="FirstName" type="text" class="span3" placeholder="First Name">
+           </div>
+           <div class="control-group"> 
+            <label>Last Name</label>
+            <input rules="required" name="LastName" type="text" class="span3" placeholder="Last Name">        
+           </div>
+           <div class="control-group">  
+            <label>Email Address</label>
+            <input rules="required" name="EmailAddress" type="text" class="span3" placeholder="Email Address"> 
+           </div>
+        </form> 
+    </div>
+    <div class="modal-footer">
+        <a href="#" class="btn pull-right" data-dismiss="modal"> Cancel</a>
+        <a href="#" action="confirm" style="margin-right:5px;" class="btn btn-primary confirm">Save</a>
+    </div>
+ </div>
+</script>   
